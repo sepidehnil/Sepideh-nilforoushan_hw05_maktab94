@@ -1,0 +1,91 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url("download (1).jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: sans-serif;
+}
+.main-container {
+  width: 600px;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container {
+  background-color: rgb(160, 243, 250);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px 60px;
+  border-radius: 10px;
+}
+.avatar-profile {
+  border-radius: 50%;
+}
+h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
+
+input {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  margin-left: 5px;
+  font-size: 1.2rem;
+  color: white;
+}
+.inp1 {
+  display: flex;
+  border-bottom: 2px solid white;
+  margin-bottom: 25px;
+}
+.inp1 > input {
+  margin-bottom: 15px;
+}
+
+.inp2 {
+  display: flex;
+  border-bottom: 2px solid white;
+  margin-bottom: 20px;
+}
+.inp2 > input {
+  margin-bottom: 15px;
+}
+.inp3 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.inp3 > div {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  color: white;
+}
+button {
+  padding: 15px 25px;
+  border-radius: 20px;
+  border: none;
+  margin-bottom: 50px;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+footer {
+  color: white;
+}
+::placeholder {
+  color: white;
+}
